@@ -37,3 +37,7 @@ A cópia disponível tem 300 quadros a 30 fps (33,3 ms por quadro). Foi gerada u
 ### Recorte ampliado dos ícones
 
 O recorte consecutivo mostra que o ícone geométrico e o X permanecem no quadro enquanto o módulo com duas cápsulas é substituído pelo círculo preto. A troca ocorre entre quadros adjacentes, sem um morph intermediário claramente visível nessa cópia. O quadrado inferior permanece temporariamente, e o círculo já surge com duas pequenas marcas claras. Essa persistência dos elementos anteriores é essencial para perceber que a fileira está sendo construída, sem reiniciar a composição a cada ícone.
+
+## Fonte 1080p e refinamento
+
+Revisão adicional usando a variante pública 1920×1080, 30 fps, 10 s. No trecho ampliado de 4,3–5,8 s, o quadrado superior se move para a direita e para baixo até alinhar-se à linha dos ícones. Na amostra seguinte, sua moldura desaparece e o X aparece já definido; não há evidência suficiente para afirmar morph geométrico contínuo. Os módulos remanescentes ficam visíveis, e os ícones permanecem à medida que a sequência se completa. Use movimento curto e troca precisa de camadas, seguidos de repouso; não substitua esse efeito por um fade genérico.
