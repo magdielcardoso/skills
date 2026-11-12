@@ -5,7 +5,7 @@ description: Create an editable HyperFrames product-launch video from a product 
 
 # Product video launch
 
-Turn the supplied product URL into a finished, editable launch film. Work autonomously: a URL is sufficient. Default to 1920×1080, 30 fps, approximately 60–80 seconds, with no narration or captions unless requested. Use the website's language unless the user asks otherwise. Adapt duration and story to available evidence; do not pad or fabricate features. Read `references/style.md` for the visual grammar and observed reference sequence. This is a style adaptation, not a promise of pixel-identical reproduction; use the user's brand, assets and product facts.
+Turn the supplied product URL into a finished, editable launch film. Work autonomously: a URL is sufficient. Default to 1920×1080, 30 fps, approximately 60–80 seconds, with no narration or captions unless requested. Use the website's language unless the user asks otherwise. Adapt duration and story to available evidence; do not pad or fabricate features. Read `references/morph-motion.md` for the additional shape-morphing reference and continuity workflow. Read `references/style.md` for the visual grammar and observed reference sequence. This is a style adaptation, not a promise of pixel-identical reproduction; use the user's brand, assets and product facts.
 
 ## Workflow
 
