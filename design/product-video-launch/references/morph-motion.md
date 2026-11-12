@@ -33,3 +33,7 @@ Para reproduzir a lógica, desenhe cada elemento como um módulo com detalhe int
 ## Revisão de quadros consecutivos
 
 A cópia disponível tem 300 quadros a 30 fps (33,3 ms por quadro). Foi gerada uma sequência integral de quadros e examinada em detalhe a região de conversão dos ícones; a resolução temporal é limitada à do arquivo. Na escada, a substituição do quadrado superior pelo X ocorre em poucos quadros, enquanto os símbolos seguintes surgem em passos discretos e preservam os anteriores. Há uma pausa com os quatro símbolos alinhados antes de uma troca abrupta para o texto; não modelar essa troca como um morph longo. A escada se forma por deslocamentos de módulos e sobreposições, não como uma única deformação contínua de toda a imagem. Observe posição e ordem de camadas quadro a quadro ao implementar.
+
+### Recorte ampliado dos ícones
+
+O recorte consecutivo mostra que o ícone geométrico e o X permanecem no quadro enquanto o módulo com duas cápsulas é substituído pelo círculo preto. A troca ocorre entre quadros adjacentes, sem um morph intermediário claramente visível nessa cópia. O quadrado inferior permanece temporariamente, e o círculo já surge com duas pequenas marcas claras. Essa persistência dos elementos anteriores é essencial para perceber que a fileira está sendo construída, sem reiniciar a composição a cada ícone.
