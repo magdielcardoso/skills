@@ -66,3 +66,7 @@ A cópia Benji disponível tem 2.373 quadros a 30 fps (79,1 s). Na inspeção de
 ### Recorte ampliado do indicador de voz
 
 Na sequência examinada em quadros consecutivos, o indicador é uma fileira de pontos arredondados azuis: as marcas centrais alongam-se verticalmente em barras com alturas distintas, enquanto pontos laterais permanecem pequenos. A amplitude diminui até voltar à linha de pontos em alguns quadros. O ícone, a engrenagem e a bolha permanecem em suas posições; o movimento é local e não um pulso de escala de todo o componente. Implemente cada barra como camada independente com extremidades arredondadas, alturas escalonadas e retorno à linha de base. O recorte foi feito na fonte disponível, sem recuperar detalhes inexistentes na resolução original.
+
+## Revisão em 1080p: construção de mensagens
+
+A variante pública disponível em 1920×1080 e 30 fps permite verificar melhor ícones e tipografia que na cópia de 720p. Na sequência de colaboração observada aproximadamente aos 32–38 s, a composição começa com título isolado; a mensagem é construída progressivamente com avatar, nome, menção e corpo, preservando essas camadas quando a segunda resposta aparece. Uma reação pequena é acrescentada à mensagem; a cena seguinte usa um conjunto de avatares. Preserve os estados anteriores ao acrescentar novos elementos e dê tempo para a leitura, em vez de animar todas as camadas como um bloco único. Observação baseada em painel de visão geral a 2 fps: essa sequência ainda precisa de inspeção em quadros consecutivos para determinar timings finos e easing.
